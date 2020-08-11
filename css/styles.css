@@ -23,3 +23,16 @@
 .click:hover {
   text-decoration: underline;
 }
+
+#hot-dog-showing {
+  display: none;
+}
+
+.food{
+  cursor: pointer;
+  color: purple;
+}
+
+.food:hover {
+  text-decoration: underline;
+}

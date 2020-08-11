@@ -11,3 +11,10 @@ $(document).ready(function() {
     $("#dog-hiding").fadeIn();
   });
 });
+
+$(document).ready(function() {
+  $(".food").click(function() {
+    $("#hot-dog-showing").toggle();
+    $("#hot-dog-hidden").toggle();
+  });
+});
